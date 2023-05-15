@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web bán đồ </title>
+    <link rel="stylesheet" href="baitaplon.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <a href="" class="logo">
+                <img src="https://dthezntil550i.cloudfront.net/86/latest/861911302007288750002221253/05f85cab-dc3a-48e3-81ff-b7347d2e450b.png" alt="" style="width: 150px;height: 190px">
+            </a>
+            <div id="menu">
+                <div class="item">
+                    <a href="">Trang chủ</a>
+                </div>
+                <div class="item">
+                    <a href="">Sản phẩm</a>
+                </div>
+                <div class="item">
+                    <a href="">Blog</a>
+                </div>
+                <div class="item">
+                    <a href="">Liên hệ</a>
+                </div>
+            </div>
+            <div id="actions">
+                <div class="item">
+                    <img src="https://raw.githubusercontent.com/hqteamobi/web_shop_ban_hang/main/assets/cart.png" alt="">
+                </div>
+                <div class="item">
+                    <img src="https://raw.githubusercontent.com/hqteamobi/web_shop_ban_hang/main/assets/user.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div id="banner">
+            <div class="box-left">
+                <h2>
+                    <span>DECOR</span>
+                    <br>
+                    <span>THƯỢNG HẠNG</span>
+                </h2>
+                <p>Chuyên cung cấp các món đồ đảm bảo đến người dùng,phục vụ người dùng 1 cái
+                    hoàn hảo nhất</p>
+                <button>Mua ngay</button>
+            </div>
+            
+            <div class="to-bottom">
+                <a href="">
+                    <img src="https://github.com/hqteamobi/web_shop_ban_hang/blob/main/assets/to_bottom.png?raw=true" alt="">
+                </a>
+            </div>
+        </div>
+        <div id="wp-products">
+            <h2>SẢN PHẨM CỦA CHÚNG TÔI</h2>
+            <style>
+                @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+                *{
+                    padding: 0;
+                    margin: 0;
+                }
+                body{
+                    font-family: 'Open Sans', sans-serif;
+                    font-size: 14px;
+                    color: #111;
+                    line-height: 1.15;
+                }
+                #wrapper{
+                    max-width: 1170px;
+                    margin: 0 auto;
+                }
+                .headeline{
+                    text-align: center;
+                    margin: 40px 0px;
+                }
+                h3{
+                    font-size: 18px;
+                    color:#111;
+                    padding: 10px 20px;
+                    text-transform: uppercase;
+                    border: 1px solid #bebebe;
+                    display: inline-block;
+                    color: #555;
+                    font-weight: 600;
+                }
+                ul.products{
+                    list-style: none;
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: space-between;
+                }
+                ul.products li{
+                    flex-basis: 25%;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    box-sizing: border-box;
+                }
+                ul.products li img{
+                    max-width: 100%;
+                    height: auto;
+                }
+                ul.products li .product-top {
+                    position: relative;
+                    overflow: hidden;
+                }
+                ul.products li .product-top .product-thumb{
+                    display: block;
+                }
+                ul.products li:hover .product-top .product-thumb img{
+                    filter:opacity(80%);
+                }
+                ul.products li .product-top .product-thumb img{
+                    display: block;
+                }
+                ul.products li .product-top a.buy-now{
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    text-align: center;
+                    display: block;
+                    background-color: #446084;
+                    color: #fff;
+                    padding: 10px 0px;
+                    position: absolute;
+                    bottom: -36px;
+                    width: 100%; 
+                    transition: 0.25s ease-in-out;
+                    opacity:0.85;
+                }
+                ul.products li:hover a.buy-now{
+                    bottom: 0px;
+                }
+                ul.products li .product-info{
+                    padding:10px 0px;
+                }
+                ul.products li .product-info{
+                    display:block;
+                    text-decoration: none;
+                }
+                ul.products li .product-info a.product-cat {
+                    font-size: 11px;
+                    text-transform: uppercase;
+                    color:#9e9e9e;
+                    padding: 3px 0px;
+                }
+                ul.products li .product-info a.product-name{
+                    color: #334862;
+                    padding: 3px 0px;
+                }
+                ul.products li .product-info .product-price{
+                    color: #111;
+                    padding:2px 0px ;
+                    font-weight: 600;     
+                }
+            </style>
+            <div id="wrapper">
+            <div class="headline">
+                <h3>Decopro</h3>
+            </div>
+            </div>
+            <ul class="products">
+               <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://decopro.vn/wp-content/uploads/2020/05/Binh-tai-loc-phu-the-gom-chu-dau-bg210a1-view3.jpg" alt="">
+                        </a>
+                        <a href="" class="buy-now">Mua Ngay</a>
+                    </div>
+                    <div class="product-info">
+                        <a href="" class="product-cat">BÌNH HÚT TÀI LỘC GỐM SỨ</a>
+                        <a href="" class="product-name">BÌNH ÂM DƯƠNG GỐM CHU ĐẬU VẼ VÀNG 24K BGCD1</a>
+                        <div class="product-price">2.000.000đ</div>
+                    </div>
+                </div>
+               </li>
+               <li>
+                <div class="product-item"></div>
+                <div class="product-top">
+                    <a href="" class="product-thumb">
+                        <img src="https://decopro.vn/wp-content/uploads/2018/04/Ke-ruou-vang-song-ma-thanh-cong-view.jpg" alt="">
+                    </a>
+                    <a href="" class="buy-now">Mua Ngay</a>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">QUÀ TẶNG KỆ RƯỢU VẰNG</a>
+                    <a href="" class="product-name">KỆ ĐỂ RƯỢU SONG MÃ THÀNH CÔNG KR004-A2</a>
+                    <div class="product-price">1.350.000đ</div>
+                </div>
+               </li>
+               <li>
+                <div class="product-item"></div>
+                <div class="product-top">
+                    <a href="" class="product-thumb">
+                        <img src="https://decopro.vn/wp-content/uploads/2019/08/Dong-ho-treo-tuong-cap-chim-cong-view1.jpg" alt="">
+                    </a>
+                    <a href="" class="buy-now">Mua Ngay</a>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">ĐỒNG HÔ DECOR</a>
+                    <a href="" class="product-name">ĐỒNG HỒ TRANG TRÍ CHIM CÔNG 100X85CM DH116</a>
+                    <div class="product-price">1.150.000đ</div>
+                </div>
+               </li>
+               <li>
+                <div class="product-item"></div>
+                <div class="product-top">
+                    <a href="" class="product-thumb">
+                        <img src="https://decopro.vn/wp-content/uploads/2023/03/Bo-am-chen-su-tiep-ma-vang-cao-cap-bat302-view.jpg" alt="">
+                    </a>
+                    <a href="" class="buy-now">Mua Ngay</a>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">BỘ ẤM TRÀ CAO CẤP</a>
+                    <a href="" class="product-name">BÌNH ÂM DƯƠNG GỐM CHU ĐẬU VẼ VÀNG 24K BGCD1</a>
+                    <div class="product-price">10.800.000đ</div>
+                </div>
+               </li>
+               <li>
+                <div class="product-item"></div>
+                <div class="product-top">
+                    <a href="" class="product-thumb">
+                        <img src="https://decopro.vn/wp-content/uploads/2019/12/Binh-gom-su-decor-nha-dep-hien-dai-bg032.jpg" alt="">
+                    </a>
+                    <a href="" class="buy-now">Mua Ngay</a>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">BÌNH GỐM SỨ</a>
+                    <a href="" class="product-name">CẶP BÌNH GỐM SỨ XANH DECOR TRANG TRÍ BG032-A2</a>
+                    <div class="product-price">850.000đ</div>
+                </div>
+               </li>
+               <li>
+                <div class="product-item"></div>
+                <div class="product-top">
+                    <a href="" class="product-thumb">
+                        <img src="https://decopro.vn/wp-content/uploads/2022/09/Binh-gom-trang-tri-bg043-view1.jpg" alt="">
+                    </a>
+                    <a href="" class="buy-now">Mua Ngay</a>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">BÌNH HÚT TÀI LỘC</a>
+                    <a href="" class="product-name">BỘ BÌNH HOA GỐM SỨ DECOR BG042/a>
+                    <div class="product-price">1.050.000đ</div>
+                </div>
+               </li>
+               <li>
+                <div class="product-item"></div>
+                <div class="product-top">
+                    <a href="" class="product-thumb">
+                        <img src="https://decopro.vn/wp-content/uploads/2018/04/Ke-ruou-thieu-nu-da-hoi.jpg" alt="">
+                    </a>
+                    <a href="" class="buy-now">Mua Ngay</a>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">TƯỢNG DECOR HIỆN ĐẠI</a>
+                    <a href="" class="product-name">KỆ RƯỢU VANG THIẾU NỮ DẠ HỘI KR030</a>
+                    <div class="product-price">600.000đ</div>
+                </div>
+               </li>
+               <li>
+                <div class="product-item"></div>
+                <div class="product-top">
+                    <a href="" class="product-thumb">
+                        <img src="https://decopro.vn/wp-content/uploads/2023/03/Bo-gia-treo-ly-ruou-vang-duc-vang-550ml-View2.jpg" alt="">
+                    </a>
+                    <a href="" class="buy-now">Mua Ngay</a>
+                </div>
+                <div class="product-info">
+                    <a href="" class="product-cat">Bộ LY CAO CẤP</a>
+                    <a href="" class="product-name">BỘ 6 LY RƯỢU PHA LÊ ĐÚC VÀNG 24K 550ML LR009-A2</a>
+                    <div class="product-price">1.300.000đ</div>
+                </div>
+               </li>    
+          
+            <div class="list-page">
+                <div class="item">
+                    <a href="">1</a>
+                </div>
+                <div class="item">
+                    <a href="">2</a>
+                </div>
+                <div class="item">
+                    <a href="">3</a>
+                </div>
+                <div class="item">
+                    <a href="">4</a>
+                </div>
+            </div>
+        </div>
+
+        <div id="saleoff">
+            <div class="box-left">
+                <h1>
+                    <span>GIẢM GIÁ LÊN ĐẾN</span>
+                    <span>0%</span>
+                    <br>
+                    <span>CỰC SỐC CỰC HOT</span>
+                </h1>
+            </div>
+            <div class="box-right"></div>
+        </div>
+
+        <div id="comment">
+            <h2>NHẬN XÉT CỦA KHÁCH HÀNG</h2>
+            <div id="comment-body">
+                <div class="prev">
+                    <a href="#">
+                        <img src="https://i.pinimg.com/564x/82/af/94/82af94833c65fb7255db04d18dc1f7be.jpg" alt="">
+                    </a>
+                </div>
+                <ul id="list-comment">
+                    <li class="item">
+                        <div class="avatar">
+                            <img src="https://github.com/hqteamobi/web_shop_ban_hang/blob/main/assets/avatar_1.png?raw=true" alt="">
+
+                        </div>
+                        <div class="stars">
+                            <span>
+                                <img src="https://github.com/hqteamobi/web_shop_ban_hang/blob/main/assets/star.png?raw=true" alt="">
+                            </span>
+                        </div>
+                        <div class="name">Nguyễn Thị HÉCH CƠ</div>
+
+                        <div class="text">
+                            <p>web làm như shit thằng lương 100tr/tháng vậy</p>
+                        </div>
+                    </li>        
+                </ul>
+                <div class="next">
+                    <a href="#">
+                        <img src="" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div id="footer">
+            <div class="box">
+                <div class="logo">
+                    <img src="https://dthezntil550i.cloudfront.net/86/latest/861911302007288750002221253/05f85cab-dc3a-48e3-81ff-b7347d2e450b.png" alt="" style="width: 50px;height: 60px;">
+                </div>
+                <p>Cung cấp sản phẩm với chất lượng an toàn cho quý khách</p>
+            </div>
+            <div class="box">
+                <h3>NỘI DUNG</h3>
+                <ul class="quick-menu">
+                    <div class="item">
+                        <a href="">Trang chủ</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Sản phẩm</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Blog</a>
+                    </div>
+                    <div class="item">
+                        <a href="">Liên hệ</a>
+                    </div>
+                </ul>
+            </div>
+            <div class="box">
+                <h3>LIÊN HỆ</h3>
+                <form action="">
+                    <input type="text" placeholder="Địa chỉ email">
+                    <button>Nhận tin</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
